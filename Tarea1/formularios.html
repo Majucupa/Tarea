@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div style="width: 150px; padding: 50px; text-align: center">
+      <form action="#">
+        <br />
+
+        <div>
+          <label for="platillo">¿Que plato deseas?</label>
+          <input type="text" name="" id="platillo" />
+        </div>
+        <br />
+        <div>
+          <label for="direccion">Direccion</label>
+          <input type="number" name="direccion" id="direccion" />
+        </div>
+        <br />
+        <div>
+          <label for="ciudad">ciudad</label>
+          <input type="text" name="ciudad" id="ciudad" />
+        </div>
+        <br />
+        <div>
+          <label for="nombre">nombre</label>
+          <input type="number" name="nombre" id="nombre" />
+        </div>
+        <br />
+        <div>
+          <label for="radio">efectivo</label>
+          <input type="radio" name="esSA" id="esSA" />
+          <label for="radio">nequi</label>
+          <input type="radio" name="esSA" id="esSA" />
+        </div>
+        <br />
+        <div>
+          <label for="plato">foto del plato</label>
+          <input type="file" name="plato" id="plato" />
+        </div>
+        <br />
+        <div>
+          <input type="checkbox" name="check" id="check" />
+          <label for="check">Favoritos</label>
+        </div>
+        <br />
+        <input type="submit" value="Enviar" />
+        <input type="reset" value="Borrar" />
+      </form>
+    </div>
+    <div>
+      <form action="#">
+        <fieldset>
+          <legend>Formulario de contacto</legend>
+          <div>
+            <label for="barrio">Barrio</label>
+            <select name="barrio" id="barrio">
+              <option value="cooperativista">Cooperativista</option>
+              <option value="santa ana">Santa Ana</option>
+              <option value="los angeles">Los angeles</option>
+              <option value="laureles">Laureles</option>
+              <option value="santa ana">Santa Ana</option>
+            </select>
+          </div>
+          <div>
+            <label for="fecha">Fecha de nacimiento</label>
+            <div>
+              <!-- Dias -->
+              <input
+                type="text"
+                name="dias"
+                id="dias"
+                min="1"
+                max="31"
+                width="4"
+              />
+              de
+              <select name="mes" id=" mes">
+                <option value="enero">Enero</option>
+                <option value="febrero">Febrero</option>
+                <option value="marzo">Marzo</option>
+                <option value="abril">Abril</option>
+                <option value="mayo">Mayo</option>
+                <option value="junio">Junio</option>
+                <option value="julio">Julio</option>
+                <option value="agosto">Agosto</option>
+                <option value="septiembre">Septiembre</option>
+                <option value="octubre">Octubre</option>
+                <option value="noviembre">Noviembre</option>
+                <option value="diciembre">Diciembre</option>
+              </select>
+              de
+              <input
+                type="text"
+                name="anios"
+                id="anios"
+                min="1900"
+                max="2024"
+                width="4"
+              />
+            </div>
+          </div>
+
+          <div>
+            <label for="temas">Plato favoritos</label>
+            <select name="temas" id="temas" multiple>
+              <option value="entrada">Entrada</option>
+              <option value="ensalada">Ensalada</option>
+              <option value="carne">Carne</option>
+              <option value="pescado">Pescado</option>
+              <option value="postre">Postre</option>
+              <option value="bebida">Bebida</option>
+              <option value="sopa">Sopa</option>
+            </select>
+          </div>
+          <input type="submit" value="Enviar" />
+        </fieldset>
+      </form>
+    </div>
+  </body>
+</html>
